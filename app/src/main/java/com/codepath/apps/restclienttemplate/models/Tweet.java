@@ -19,7 +19,7 @@ public class Tweet {
     public User user;
 
     // empty constructor needed by the Parceler library
-    public Tweet(){}
+//    public Tweet(){}
 
     public static Tweet fromJson(JSONObject jsonObject) throws JSONException {
         Tweet tweet = new Tweet();
